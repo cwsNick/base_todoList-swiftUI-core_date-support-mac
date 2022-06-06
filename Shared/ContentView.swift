@@ -20,14 +20,10 @@ struct ContentView: View {
     
     var body: some View {
         #if os(iOS)
-        NavigationView {
-            
-            VStack {
-                TaskList()
-                Spacer()
-                EditorView()
-            }
-            .navigationTitle("To-Do List")
+        VStack {
+            TaskList()
+            Spacer()
+            EditorView()
         }
         #else
         HStack {
