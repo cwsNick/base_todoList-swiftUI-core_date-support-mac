@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33701D12852190D00051F47 /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D02852190D00051F47 /* LockScreenView.swift */; };
+		D33701D22852190D00051F47 /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D02852190D00051F47 /* LockScreenView.swift */; };
+		D33701D42852194300051F47 /* PwdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D32852194300051F47 /* PwdView.swift */; };
+		D33701D52852194300051F47 /* PwdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D32852194300051F47 /* PwdView.swift */; };
+		D33701D72852196A00051F47 /* PwdButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D62852196A00051F47 /* PwdButton.swift */; };
+		D33701D82852196A00051F47 /* PwdButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D62852196A00051F47 /* PwdButton.swift */; };
+		D33701DA2852199100051F47 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D92852199100051F47 /* DeleteButton.swift */; };
+		D33701DB2852199100051F47 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701D92852199100051F47 /* DeleteButton.swift */; };
+		D33701DD285219A900051F47 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701DC285219A900051F47 /* AuthButton.swift */; };
+		D33701DE285219A900051F47 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33701DC285219A900051F47 /* AuthButton.swift */; };
 		D35E22DF28463C6100948782 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E22DE28463C6100948782 /* EditorView.swift */; };
 		D35E22E028463C6100948782 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E22DE28463C6100948782 /* EditorView.swift */; };
 		D35E22E328463C9B00948782 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E22E228463C9B00948782 /* TaskList.swift */; };
@@ -28,6 +38,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33701D02852190D00051F47 /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		D33701D32852194300051F47 /* PwdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdView.swift; sourceTree = "<group>"; };
+		D33701D62852196A00051F47 /* PwdButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdButton.swift; sourceTree = "<group>"; };
+		D33701D92852199100051F47 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		D33701DC285219A900051F47 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		D35E22DE28463C6100948782 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		D35E22E228463C9B00948782 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 		D35E22E52846466300948782 /* TextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
@@ -68,6 +83,11 @@
 				D35E22E228463C9B00948782 /* TaskList.swift */,
 				D35E22E52846466300948782 /* TextBox.swift */,
 				D35E22E8284646D100948782 /* TextButton.swift */,
+				D33701D02852190D00051F47 /* LockScreenView.swift */,
+				D33701D32852194300051F47 /* PwdView.swift */,
+				D33701D62852196A00051F47 /* PwdButton.swift */,
+				D33701D92852199100051F47 /* DeleteButton.swift */,
+				D33701DC285219A900051F47 /* AuthButton.swift */,
 			);
 			name = Component;
 			sourceTree = "<group>";
@@ -218,13 +238,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33701D72852196A00051F47 /* PwdButton.swift in Sources */,
+				D33701DD285219A900051F47 /* AuthButton.swift in Sources */,
 				D35E22E328463C9B00948782 /* TaskList.swift in Sources */,
 				D3F1130F2845F09100643738 /* ContentView.swift in Sources */,
 				D3F1130D2845F09100643738 /* base_todoList_swiftUI_core_dateApp.swift in Sources */,
 				D3F113212845F32800643738 /* CoreDataController.swift in Sources */,
+				D33701D12852190D00051F47 /* LockScreenView.swift in Sources */,
 				D35E22E9284646D100948782 /* TextButton.swift in Sources */,
 				D3F1131D2845F0BF00643738 /* Model.xcdatamodeld in Sources */,
+				D33701DA2852199100051F47 /* DeleteButton.swift in Sources */,
 				D35E22E62846466300948782 /* TextBox.swift in Sources */,
+				D33701D42852194300051F47 /* PwdView.swift in Sources */,
 				D35E22DF28463C6100948782 /* EditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,13 +258,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33701D82852196A00051F47 /* PwdButton.swift in Sources */,
+				D33701DE285219A900051F47 /* AuthButton.swift in Sources */,
 				D35E22E428463C9B00948782 /* TaskList.swift in Sources */,
 				D3F113102845F09100643738 /* ContentView.swift in Sources */,
 				D3F1130E2845F09100643738 /* base_todoList_swiftUI_core_dateApp.swift in Sources */,
 				D3F113222845F32800643738 /* CoreDataController.swift in Sources */,
+				D33701D22852190D00051F47 /* LockScreenView.swift in Sources */,
 				D35E22EA284646D100948782 /* TextButton.swift in Sources */,
 				D3F1131E2845F0BF00643738 /* Model.xcdatamodeld in Sources */,
+				D33701DB2852199100051F47 /* DeleteButton.swift in Sources */,
 				D35E22E72846466300948782 /* TextBox.swift in Sources */,
+				D33701D52852194300051F47 /* PwdView.swift in Sources */,
 				D35E22E028463C6100948782 /* EditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +396,7 @@
 				DEVELOPMENT_TEAM = V7KM75M9T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Bio Auth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -396,6 +427,7 @@
 				DEVELOPMENT_TEAM = V7KM75M9T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Bio Auth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
