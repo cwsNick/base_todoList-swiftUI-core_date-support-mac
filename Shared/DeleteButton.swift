@@ -7,14 +7,22 @@
 
 import SwiftUI
 
-struct DeleteButton: View {
+struct DeleteButton : View {
+    @Binding var password : String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: deletePassword, label: {
+            Image(systemName: "delete.left")
+                .font(.system(size: 24))
+        })
     }
-}
-
-struct DeleteButton_Previews: PreviewProvider {
-    static var previews: some View {
-        DeleteButton()
+    
+    func deletePassword() {
+        // checking if backspace pressed...
+        withAnimation {
+            if password.count != 0 {
+                password.removeLast()
+            }
+        }
     }
 }
